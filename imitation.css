@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Engagement&family=Righteous&family=Saira+Extra+Condensed:wght@100&display=swap');
+/* css to specify families:
+font-family: 'Bebas Neue', sans-serif; (nutrition, 15 rolls, pizza in a golden crust)
+font-family: 'Engagement', cursive;    (Totino's)
+font-family: 'Righteous', sans-serif;  (PIZZA ROLLS, BRAND PIZZA SNACKS)
+font-family: 'Saira Extra Condensed', sans-serif;  (tiny thin text)
+*/
+
+/* 
+Hi, yeah... I was kinda overwhelmed by all of the things I had to do and ended up getting stuck going "oh god... what do I do? there's so much stuff and I don't know where to start..." Basically, there's nothing scarier than a blank slate, and BOY am I spookified.
+
+I think I have all the text, but I don't know where to start when moving stuff around. I don't even know how big the original box is in pixels! I don't know what to do and we're too far into the project to even have a chance at finishing mine on time. Cue internal screaming. I wanna ask for help, but other people need help too and you'd probably be stuck with me the entire class. This is kinda a huge disaster and I don't know what to do about the situation. 
+
+For extra context, I need to make the box/background, put the red circle and orange triangles on it, put the weird brown-orange rectangle/oval things on the box, but under the text, add two smaller white ovally things over the bottom of two of the rectangle/ovals, make it have the same shape as the bottom of the other rectangle/ovals, size the text so it matches the original box, add the pizza rolls, move everything around so it looks at least somewhat decent, and add the right colors.
+ T H E N
+I have to put all of that mess of CSS into the responsive thingy, and mess with all of my spaghetti code until it works and doesn't explode all gross-like. It's gonna be like brushing long hair when it's wet. It's all knotted up, and when you try to pull it in a different direction to get a better angle, it knots up again and keeps being a mess. Then you have to bend your arms all weird to get the hair to cooperate, and even still it can just decide it hates you and keeps being knotted, but in a small hidden way near the roots that messes everything up. Keep in mind that this is long hair. There's a lot to manage and it's hard to figure out where to start if you aren't experienced with dealing with knotted wet hair. Basically, after getting things to look decent the first time, I'll end up messing everything up in the responsive CSS and it'll just collapse in on itself when all I want is to make it squish and grow without the responsive design looking like an unsolved jigsaw puzzle.
+
+I don't know what to do. Part of me wants to give up, but another part of me is screaming that I have to get it done, and is making me rather anxious. So I both want to just curl up in a ball and cry from despair, and metaphorically ram my head against the wall until it works and cry from frustration. Once again, I would love to get help, but I feel like it's too late for me and that you should be helping other students.
+
+tl;dr I am still at the start, I have no clue what I'm doing, and the deadline is way too close for me to catch up. 
+Yippee!! /s
+*/
+
+
+
+
+main {
+  /* Fix the size of your design before you do anything else */
+  width: 495px;
+  height: 445px;
+  margin: auto;
+  margin-top: 185px;
+  border: 1px solid #400274;
+}
+
+:root{
+  --gradient_center :#f4e030;
+  --gradient_outer :#f1ae0c;
+  --cornery_thing :#fc912e;
+--oval :#E94458;
+  --nutrients :#D97E46;
+  --dark_text :#412E15;
+}
+
+body{
+  display: flex;
+}
+
+h1{
+  font-family: 'Engagement', cursive;
+  display: flex;
+}
+
+h2{
+  font-family: 'Righteous', sans-serif;
+  display: flex;
+}
+
+.center{
+  display: flex;
+}
+
+
+.bottom_right {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+div{
+  display:flex;
+}
+
+
+
+
+
+
+/* colors!!!
+
+#F1AE0C
+#F4E030
+
+*/
+
